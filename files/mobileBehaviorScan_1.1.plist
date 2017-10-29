@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>ValidationServer</key>
+    <dict>
+        <key>Scheme</key>
+        <string>http</string>
+        <key>Host</key>
+        <string>iosdiags.apple.com</string>
+        <key>Port</key>
+        <integer>80</integer>
+        <key>Path</key>
+        <string>MR3Server/ValidateTicket</string>
+    </dict>
+    <key>SubmissionServer</key>
+    <dict>
+        <key>Scheme</key>
+        <string>http</string>
+        <key>Host</key>
+        <string>iosdiags.apple.com</string>
+        <key>Port</key>
+        <integer>80</integer>
+        <key>Path</key>
+        <string>MR3Server/MR3Post</string>
+    </dict>
+    <key>DescriptionServer</key>
+    <dict>
+        <key>Scheme</key>
+        <string>http</string>
+        <key>Host</key>
+        <string>iosdiags.apple.com</string>
+        <key>Port</key>
+        <integer>80</integer>
+        <key>Path</key>
+        <string>MR3Server/GetOptinText</string>
+</dict>
+</dict>
+</plist>
